@@ -1,0 +1,19 @@
+POST http://localhost:999/chat?token=TN51EN HTTP/1.1
+User-Agent: Composer
+Host: localhost:999
+Content-Length: 38
+
+{"message":"Test message"}
+
+
+
+
+
+
+HTTP/1.1 200 OK
+Date: Fri, 17 Apr 2015 14:09:17 GMT
+Transfer-encoding: chunked
+Access-control-allow-origin: *
+
+0
+
